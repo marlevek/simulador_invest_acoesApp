@@ -26,6 +26,8 @@ st.markdown("""
 st.markdown('<h1 class="center-text">Simulador de Investimentos em Ações</h1>', unsafe_allow_html=True)
 
 with st.sidebar:
+    st.write('Dados do Yahoo Finance')
+    
     # Input para o ticker da ação
     ticker = st.text_input("Digite o ticker da ação (ex: AAPL para Apple):", "AAPL")
 
