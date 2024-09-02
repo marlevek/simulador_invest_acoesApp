@@ -1,0 +1,1 @@
+# simulador_invest_acoesApp
